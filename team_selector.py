@@ -22,7 +22,7 @@ while True:
         print(player)
 
     team3 = players[(len(players)//3)*2:]
-    print("\nTeam 3 captain: " + random.choice(team2))
+    print("\nTeam 3 captain: " + random.choice(team3))
     print("Team 3:")
     for player in team3:
         print(player)
